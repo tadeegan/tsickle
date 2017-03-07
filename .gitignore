@@ -9,3 +9,6 @@
 
 # VSCode directory
 .vscode
+
+# Bazel working directories
+/bazel-*
