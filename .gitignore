@@ -1,5 +1,5 @@
 # Compiled JS
-build
+/built
 
 # Dependency directory
 /node_modules
