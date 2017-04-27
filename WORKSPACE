@@ -3,9 +3,7 @@ load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 git_repository(
     name = "io_bazel_rules_typescript",
     remote = "sso://bazel/rules_typescript",
-    # Use floating HEAD for convenience during development.
-    # Don't do this for a real application!
-    commit = "master")
+    commit = "3094950addc87f59b0eece824bb590b6694153cb")
 
 load("@io_bazel_rules_typescript//:defs.bzl", "node_repositories", "yarn_install")
 
